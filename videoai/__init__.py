@@ -38,8 +38,8 @@ class VideoAIUser(object):
         if host:
             self.base_url = host
         else:
-            self.base_url = "http://192.168.90.53:5000"
-            #self.base_url = "https://api.videoai.net"
+            #self.base_url = "http://192.168.90.53:5000"
+            self.base_url = "https://api.videoai.net"
         self.verbose = verbose
         self.end_point = 'task'
 
